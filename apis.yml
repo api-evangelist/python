@@ -1,181 +1,47 @@
+aid: python
 name: Python Standard Library and Popular APIs
-description: A collection of commonly used Python APIs and libraries
-image: https://www.python.org/static/community_logos/python-logo.png
-url: https://www.python.org
-created: '2024-01-01'
-modified: '2024-01-01'
-apis:
-- name: Python Standard Library
-  description: Core Python built-in modules and standard library
-  image: https://www.python.org/static/community_logos/python-logo.png
-  humanURL: https://docs.python.org/3/library/
-  baseURL: https://docs.python.org/3/
-  tags:
-  - standard library
-  - built-in
-  - core
-  properties:
-  - type: Documentation
-    url: https://docs.python.org/3/library/index.html
-  - type: Tutorial
-    url: https://docs.python.org/3/tutorial/
-  contact:
-  - FN: Python Software Foundation
-    email:
-    - email protected
-    url: https://www.python.org/psf/
-- name: Requests
-  description: HTTP library for Python - elegant and simple HTTP requests
-  image: https://requests.readthedocs.io/en/latest/_static/requests-sidebar.png
-  humanURL: https://requests.readthedocs.io/
-  baseURL: https://pypi.org/project/requests/
-  tags:
-  - HTTP
-  - requests
-  - web client
-  properties:
-  - type: Documentation
-    url: https://requests.readthedocs.io/en/latest/
-  - type: GitHub
-    url: https://github.com/psf/requests
-  - type: PyPI
-    url: https://pypi.org/project/requests/
-  contact:
-  - FN: Kenneth Reitz
-    url: https://github.com/psf/requests
-- name: Flask
-  description: Lightweight WSGI web application framework
-  humanURL: https://flask.palletsprojects.com/
-  baseURL: https://pypi.org/project/Flask/
-  tags:
-  - web framework
-  - WSGI
-  - microframework
-  properties:
-  - type: Documentation
-    url: https://flask.palletsprojects.com/en/latest/
-  - type: GitHub
-    url: https://github.com/pallets/flask
-  - type: PyPI
-    url: https://pypi.org/project/Flask/
-  - type: Quickstart
-    url: https://flask.palletsprojects.com/en/latest/quickstart/
-  contact:
-  - FN: Pallets
-    url: https://palletsprojects.com/
-- name: Django
-  description: High-level Python web framework for rapid development
-  humanURL: https://www.djangoproject.com/
-  baseURL: https://pypi.org/project/Django/
-  tags:
-  - web framework
-  - ORM
-  - full-stack
-  - MVC
-  properties:
-  - type: Documentation
-    url: https://docs.djangoproject.com/
-  - type: GitHub
-    url: https://github.com/django/django
-  - type: PyPI
-    url: https://pypi.org/project/Django/
-  - type: Tutorial
-    url: https://docs.djangoproject.com/en/stable/intro/tutorial01/
-  contact:
-  - FN: Django Software Foundation
-    url: https://www.djangoproject.com/foundation/
-- name: Pandas
-  description: Data analysis and manipulation library
-  humanURL: https://pandas.pydata.org/
-  baseURL: https://pypi.org/project/pandas/
-  tags:
-  - data science
-  - data analysis
-  - dataframes
-  properties:
-  - type: Documentation
-    url: https://pandas.pydata.org/docs/
-  - type: GitHub
-    url: https://github.com/pandas-dev/pandas
-  - type: PyPI
-    url: https://pypi.org/project/pandas/
-  - type: Getting Started
-    url: https://pandas.pydata.org/docs/getting_started/index.html
-  contact:
-  - url: https://github.com/pandas-dev
-- name: NumPy
-  description: Fundamental package for scientific computing with Python
-  humanURL: https://numpy.org/
-  baseURL: https://pypi.org/project/numpy/
-  tags:
-  - scientific computing
-  - arrays
-  - mathematics
-  properties:
-  - type: Documentation
-    url: https://numpy.org/doc/
-  - type: GitHub
-    url: https://github.com/numpy/numpy
-  - type: PyPI
-    url: https://pypi.org/project/numpy/
-  - type: Tutorial
-    url: https://numpy.org/doc/stable/user/quickstart.html
-  contact:
-  - url: https://numpy.org/community/
-- name: FastAPI
-  description: Modern, fast web framework for building APIs with Python 3.7+
-  humanURL: https://fastapi.tiangolo.com/
-  baseURL: https://pypi.org/project/fastapi/
-  tags:
-  - API
-  - REST
-  - async
-  - OpenAPI
-  properties:
-  - type: Documentation
-    url: https://fastapi.tiangolo.com/
-  - type: GitHub
-    url: https://github.com/tiangolo/fastapi
-  - type: PyPI
-    url: https://pypi.org/project/fastapi/
-  - type: Tutorial
-    url: https://fastapi.tiangolo.com/tutorial/
-  contact:
-  - FN: Sebastián Ramírez
-    url: https://tiangolo.com/
-- name: SQLAlchemy
-  description: SQL toolkit and Object-Relational Mapping (ORM) library
-  humanURL: https://www.sqlalchemy.org/
-  baseURL: https://pypi.org/project/SQLAlchemy/
-  tags:
-  - database
-  - ORM
-  - SQL
-  properties:
-  - type: Documentation
-    url: https://docs.sqlalchemy.org/
-  - type: GitHub
-    url: https://github.com/sqlalchemy/sqlalchemy
-  - type: PyPI
-    url: https://pypi.org/project/SQLAlchemy/
-  - type: Tutorial
-    url: https://docs.sqlalchemy.org/en/20/tutorial/
-  contact:
-  - FN: Mike Bayer
-    url: https://www.sqlalchemy.org/
-include:
-- name: Python Package Index (PyPI)
-  url: https://pypi.org/
-- name: Python Documentation
-  url: https://docs.python.org/
-maintainers:
-- FN: Python Community
-  email:
-  - email protected
-  url: https://www.python.org/community/
+description: A collection of commonly used Python APIs and libraries including the
+  standard library and popular frameworks like Flask, Django, FastAPI, Pandas, and NumPy.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- python
-- programming language
-- libraries
-- frameworks
-- APIs
+  - Python
+  - Programming Language
+  - Libraries
+  - Frameworks
+  - APIs
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/python/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: python:python-standard-library
+    name: Python Standard Library
+    description: Core Python built-in modules and standard library.
+    humanURL: https://docs.python.org/3/library/
+    tags:
+      - Standard Library
+      - Built-in
+    properties:
+      - type: Documentation
+        url: https://docs.python.org/3/library/index.html
+  - aid: python:requests
+    name: Requests
+    description: HTTP library for Python - elegant and simple HTTP requests.
+    humanURL: https://requests.readthedocs.io/
+    tags:
+      - HTTP
+    properties:
+      - type: Documentation
+        url: https://requests.readthedocs.io/en/latest/
+common:
+  - type: Website
+    url: https://www.python.org
+  - type: Documentation
+    url: https://docs.python.org/3/
+  - type: Community
+    url: https://www.python.org/community/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
