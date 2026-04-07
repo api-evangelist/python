@@ -1,15 +1,13 @@
 aid: python
 name: Python Standard Library and Popular
-description: A collection of commonly used Python APIs and libraries including the
-  standard library and popular frameworks like Flask, Django, FastAPI, Pandas, and NumPy.
+description: A collection of commonly used Python APIs and libraries including the standard library and popular frameworks like Flask, Django, FastAPI, Pandas, and NumPy.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Python
-  - Programming Language
-  - Libraries
   - Frameworks
-  - APIs
+  - Libraries
+  - Programming Language
+  - Python
 url: >-
   https://raw.githubusercontent.com/api-evangelist/python/refs/heads/main/apis.yml
 created: '2024-01-01'
@@ -21,8 +19,8 @@ apis:
     description: Core Python built-in modules and standard library.
     humanURL: https://docs.python.org/3/library/
     tags:
+      - Built-In
       - Standard Library
-      - Built-in
     properties:
       - type: Documentation
         url: https://docs.python.org/3/library/index.html
