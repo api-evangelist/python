@@ -131,6 +131,8 @@ apis:
       - type: PyPI
         url: https://pypi.org/project/SQLAlchemy/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/thepsf
   - type: Website
     url: https://www.python.org
   - type: Documentation
