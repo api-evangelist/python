@@ -116,6 +116,10 @@ apis:
     description: Modern, fast web framework for building APIs with Python 3.7+.
     humanURL: https://fastapi.tiangolo.com/
     tags:
+      - REST
+      - Async
+      - OpenAPI
+    tags_raw:
       - API
       - REST
       - Async
