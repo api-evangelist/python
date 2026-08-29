@@ -2,6 +2,17 @@ aid: python
 name: Python Standard Library and Popular
 description: A collection of commonly used Python APIs and libraries including the standard library and popular frameworks like Flask, Django, FastAPI, Pandas, and NumPy.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
