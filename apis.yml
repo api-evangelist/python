@@ -46,7 +46,7 @@ tags_raw:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/python/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-28'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: python:python-standard-library
@@ -170,6 +170,8 @@ apis:
       - type: PyPI
         url: https://pypi.org/project/SQLAlchemy/
 common:
+  - url: https://pyfound.blogspot.com/feeds/posts/default
+    type: BlogRSS
   - type: DomainSecurity
     url: security/python-domain-security.yml
   - type: LinkedIn
