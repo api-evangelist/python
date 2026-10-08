@@ -170,6 +170,12 @@ apis:
       - type: PyPI
         url: https://pypi.org/project/SQLAlchemy/
 common:
+  - type: Plans
+    url: plans/python-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/python-rate-limits.yml
+  - type: FinOps
+    url: finops/python-finops.yml
   - url: https://pyfound.blogspot.com/feeds/posts/default
     type: BlogRSS
   - type: DomainSecurity
