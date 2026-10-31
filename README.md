@@ -1,4 +1,4 @@
-# Python Standard Library and Popular (python)
+# Python Standard Library and Popular
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,125 +66,107 @@
 
 A collection of commonly used Python APIs and libraries including the standard library and popular frameworks like Flask, Django, FastAPI, Pandas, and NumPy.
 
-**APIs.yml:** [apis.yml](apis.yml)
+**Areas:** Framework · Library · Programming Language · Python
 
-## Tags
+## Python Standard Library and Popular on APIs.io
 
-- Frameworks
-- Libraries
-- Programming Language
-- Python
+Everything profiled for Python Standard Library and Popular is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/python/](https://apis.io/providers/python/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (8)
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+- [Python Standard Library](https://apis.io/apis/python/python-standard-library/) — Core Python built-in modules and standard library.
+- [Requests](https://apis.io/apis/python/requests/) — HTTP library for Python - elegant and simple HTTP requests.
+- [Flask](https://apis.io/apis/python/flask/) — Lightweight WSGI web application framework.
+- [Django](https://apis.io/apis/python/django/) — High-level Python web framework for rapid development.
+- [Pandas](https://apis.io/apis/python/pandas/) — Data analysis and manipulation library.
+- [NumPy](https://apis.io/apis/python/numpy/) — Fundamental package for scientific computing with Python.
+- [FastAPI](https://apis.io/apis/python/fastapi/) — Modern, fast web framework for building APIs with Python 3.7+.
+- [SQLAlchemy](https://apis.io/apis/python/sqlalchemy/) — SQL toolkit and Object-Relational Mapping (ORM) library.
 
-## APIs
+### Published properties
 
-### Python Standard Library
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Core Python built-in modules and standard library.
+#### Security (1)
 
-**Human URL:** [https://docs.python.org/3/library/](https://docs.python.org/3/library/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [Python Domain Security](https://apis.io/security/python/python-domain-security/)
 
-- [Documentation](https://docs.python.org/3/library/index.html)
-- [Tutorial](https://docs.python.org/3/tutorial/)
+#### Plans and pricing (1)
 
-### Requests
+Published plans, tiers and prices.
 
-HTTP library for Python - elegant and simple HTTP requests.
+- [Python Plans Pricing](https://apis.io/plans/python/python-plans-pricing/)
 
-**Human URL:** [https://requests.readthedocs.io/](https://requests.readthedocs.io/)
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://requests.readthedocs.io/en/latest/)
-- [GitHub](https://github.com/psf/requests)
-- [PyPI](https://pypi.org/project/requests/)
+- [Python Rate Limits](https://apis.io/rate-limits/python/python-rate-limits/)
 
-### Flask
+#### FinOps (1)
 
-Lightweight WSGI web application framework.
+What the API costs to run, by operation.
 
-**Human URL:** [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
+- [Python Finops](https://apis.io/finops/python/python-finops/)
 
-#### Properties
+## Where to find this API
 
-- [Documentation](https://flask.palletsprojects.com/en/latest/)
-- [GitHub](https://github.com/pallets/flask)
-- [PyPI](https://pypi.org/project/Flask/)
-
-### Django
-
-High-level Python web framework for rapid development.
-
-**Human URL:** [https://www.djangoproject.com/](https://www.djangoproject.com/)
-
-#### Properties
-
-- [Documentation](https://docs.djangoproject.com/)
-- [GitHub](https://github.com/django/django)
-- [PyPI](https://pypi.org/project/Django/)
-
-### Pandas
-
-Data analysis and manipulation library.
-
-**Human URL:** [https://pandas.pydata.org/](https://pandas.pydata.org/)
-
-#### Properties
-
-- [Documentation](https://pandas.pydata.org/docs/)
-- [GitHub](https://github.com/pandas-dev/pandas)
-- [PyPI](https://pypi.org/project/pandas/)
-
-### NumPy
-
-Fundamental package for scientific computing with Python.
-
-**Human URL:** [https://numpy.org/](https://numpy.org/)
-
-#### Properties
-
-- [Documentation](https://numpy.org/doc/)
-- [GitHub](https://github.com/numpy/numpy)
-- [PyPI](https://pypi.org/project/numpy/)
-
-### FastAPI
-
-Modern, fast web framework for building APIs with Python 3.7+.
-
-**Human URL:** [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
-
-#### Properties
-
-- [Documentation](https://fastapi.tiangolo.com/)
-- [GitHub](https://github.com/tiangolo/fastapi)
-- [PyPI](https://pypi.org/project/fastapi/)
-
-### SQLAlchemy
-
-SQL toolkit and Object-Relational Mapping (ORM) library.
-
-**Human URL:** [https://www.sqlalchemy.org/](https://www.sqlalchemy.org/)
-
-#### Properties
-
-- [Documentation](https://docs.sqlalchemy.org/)
-- [GitHub](https://github.com/sqlalchemy/sqlalchemy)
-- [PyPI](https://pypi.org/project/SQLAlchemy/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.python.org)
 - [Documentation](https://docs.python.org/3/)
-- [Community](https://www.python.org/community/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 8.3** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/python/](https://apis.io/providers/python/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Python Standard Library and Popular: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/python/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
